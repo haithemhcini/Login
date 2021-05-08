@@ -10,6 +10,8 @@ Login project in Angular 11
 $ ng serve --open
 ```
 
-6. Login
-Run :http://localhost:4200/login
-Enter admin email `haithemhcini@gmail.com` and password `123456` and click Login
+**Login on `http://localhost:4200/login`**
+```console
+Admin email `haithemhcini@gmail.com` 
+Password `123456` 
+```
