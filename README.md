@@ -12,6 +12,6 @@ $ ng serve --open
 
 **Login on `http://localhost:4200/login`**
 ```console
-Admin email `haithemhcini@gmail.com` 
-Password `123456` 
+Admin email : haithemhcini@gmail.com
+Password : 123456
 ```
