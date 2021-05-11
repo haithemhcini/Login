@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
   pass = "123456"
   isLoggedIn = false;
   isLoginFailed = false;
-  errorMessage = '';
+  errorMessage = 'The email address or password is incorrect. Please retry';
   roles: string[] = [];
 
   constructor(
@@ -36,6 +36,7 @@ export class LoginComponent implements OnInit {
     }
     else {
       console.log("Login Failed");
+      this.isLoginFailed = true;
     }
   }
 
